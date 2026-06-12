@@ -2,3 +2,4 @@
 venv/
 __pycache__/
 tweet_index.txt
+.idea/

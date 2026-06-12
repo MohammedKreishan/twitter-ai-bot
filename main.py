@@ -144,10 +144,9 @@ if __name__ == "__main__":
     post_tweet()
 
     # النشر اليومي الساعة 9 صباحاً
-    schedule.every().day.at("09:00").do(post_tweet)
+if __name__ == "__main__":
+    print("Starting bot...")
 
-    print("📅 Daily posting scheduled at 09:00 AM")
+    post_tweet()
 
-    while True:
-        schedule.run_pending()
-        time.sleep(60)
+    print("Tweet published successfully")
