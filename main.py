@@ -136,17 +136,17 @@ def post_tweet():
 # تشغيل البوت
 # ==========================================
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
 
-    print("🚀 Twitter Bot Started")
+ #   print("🚀 Twitter Bot Started")
 
     # نشر اختبار عند التشغيل
-    post_tweet()
+  #  post_tweet()
 
     # النشر اليومي الساعة 9 صباحاً
-if __name__ == "__main__":
-    print("Starting bot...")
+#if __name__ == "__main__":
+ #   print("Starting bot...")
 
-    post_tweet()
+  #  post_tweet()
 
-    print("Tweet published successfully")
+   # print("Tweet published successfully")
